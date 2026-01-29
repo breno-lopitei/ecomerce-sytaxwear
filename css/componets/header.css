@@ -1,0 +1,51 @@
+.header {
+    position: fixed;
+    /*serve para fixar o header no topo da página */
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    /* Centraliza horizontalmente */
+    width: calc(100% - 4%);
+    /* Largura do header com margem lateral */
+    border-radius: 15px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 28px;
+    background-color: #ffffff;
+}
+
+.logo {
+    height: 40px;
+}
+
+.nav-center ul {
+    display: flex;
+    gap: 2.5rem;
+    /*diferente do px o rem atua melhor na resoposividade de telas */
+}
+  
+.nav-center a,
+.nav-right a{
+    font-size: 1.25rem;
+}
+
+.nav-center a:hover,
+.nav-right a:hover{
+    color: #7c3aed;
+}
+
+.nav-right ul {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.nav-right img {
+    height: 20px;
+}
+
+.nav-right a:hover img {
+    opacity: 0.7;
+}
