@@ -1,0 +1,42 @@
+/* hero.css BANNER DE FUNDO ABAIXO DO MENU COM FRASE DE EFEITO */
+.hero-section {
+    background: url(../../img/banners/hero.jpg) no-repeat center;
+    height: 500px;
+    position: relative;
+    background-size: cover;
+    /*<-- Ajusta o tamanho da imagem para cobrir todo o espaço e se ajusta a ele*/
+}
+
+.hero-overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 6rem;
+}
+
+.hero-content {
+    color: #ffffff;
+    max-width: 360px;
+    text-align: center;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 16px;
+}
+
+.hero-content .hero-title {
+    font-size: 1.87rem;
+    margin-bottom: 40px;
+    /*<-- Adiciona margem esquerda ao título*/
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.hero-content .hero-subtitle {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 36px;
+}

@@ -1,0 +1,60 @@
+/* Categoria de produtos */
+.categories-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.category-card{
+    position: relative; /* Adiciona posição relativa para o texto sobre a imagem */
+    width: 317px;
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    overflow: hidden; /*impede que tudo o que "vazar" da div seja cortado*/
+}
+
+.overlay { /* transparencia "preta" em cima dos cards */
+    position: absolute;
+    inset: 0; /* serve para posicionar o overlay sobre a imagem */
+    background-color: rgba(0, 0, 0, 0.25); /* Cor preta com 25% de opacidade */
+    z-index: 1; /* Garante que o overlay fique acima da imagem */
+}
+
+.category-name {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 2;
+    text-align: center;
+}
+
+.casual {
+    background-image: url(../../img/products/casual.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.esporte {
+    background-image: url(../../img/products/esporte.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.moderno {
+    background-image: url(../../img/products/moderno.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.futurista {
+    background-image: url(../../img/products/futurista.jpg);
+    background-size: cover;
+    background-position: center;
+}
+

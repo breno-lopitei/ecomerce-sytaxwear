@@ -8,16 +8,16 @@
     width: calc(100% - 4%);
     /* Largura do header com margem lateral */
     border-radius: 15px;
-    z-index: 999;
+    z-index: 999; /* Define a ordem de sobreposição do elemento */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 20px;
+    padding: 0.225rem 1.25rem;
     background-color: #ffffff;
 }
 
-.logo {
-    height: 32px;
+.logo img{
+    height: 48px;
     width: 150px;
 }
 
@@ -30,6 +30,7 @@
 .nav-center a,
 .nav-right a{
     font-size: 1.25rem;
+    color: #333333;
 }
 
 .nav-center a:hover,
