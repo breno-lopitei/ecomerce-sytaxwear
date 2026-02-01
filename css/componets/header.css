@@ -1,53 +1,48 @@
+/* header.css */
 .header {
-    position: fixed;
-    /*serve para fixar o header no topo da página */
-    top: 20px;
-    left: 50%;
-    transform: translate(-50%);
-    /* Centraliza horizontalmente */
-    width: calc(100% - 4%);
-    /* Largura do header com margem lateral */
-    border-radius: 15px;
-    z-index: 999; /* Define a ordem de sobreposição do elemento */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.225rem 1.25rem;
-    background-color: #ffffff;
+	position: fixed;
+	top: 60px;
+	left: 50%;
+	transform: translate(-50%);
+	width: calc(100% - 210px);
+	border-radius: 15px;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.265rem 1.25rem;
+	background-color: #ffffff;
 }
 
-.logo img{
-    height: 48px;
-    width: 150px;
+.logo img {
+	height: 48px;
 }
 
 .nav-center ul {
-    display: flex;
-    gap: 2.5rem;
-    /*diferente do px o rem atua melhor na resoposividade de telas */
+	display: flex;
+	gap: 2.5rem;
 }
-  
+
 .nav-center a,
-.nav-right a{
-    font-size: 1.25rem;
-    color: #333333;
+.nav-right a {
+	font-size: 1.25rem;
+	color: #333333;
 }
 
 .nav-center a:hover,
-.nav-right a:hover{
-    color: #7c3aed;
+.nav-right a:hover {
+	color: #7c3aed;
 }
-
 .nav-right ul {
-    display: flex;
-    gap: 2.5rem;
-    align-items: center;
+	display: flex;
+	gap: 2.5rem;
+	align-items: center;
 }
 
 .nav-right img {
-    height: 20px;
+	height: 20px;
 }
 
 .nav-right a:hover img {
-    opacity: 0.7;
+	opacity: 0.7;
 }

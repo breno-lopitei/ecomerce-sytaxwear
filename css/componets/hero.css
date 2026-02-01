@@ -1,10 +1,11 @@
 /* hero.css BANNER DE FUNDO ABAIXO DO MENU COM FRASE DE EFEITO */
 .hero-section {
     background: url(../../img/banners/hero.jpg) no-repeat center;
-    height: 500px;
-    position: relative;
     background-size: cover;
     /*<-- Ajusta o tamanho da imagem para cobrir todo o espaço e se ajusta a ele*/
+    height: 500px;
+    position: relative;
+    border-radius: 20PX;
 }
 
 .hero-overlay {
@@ -22,7 +23,7 @@
     text-align: center;
 }
 
-.hero-buttons{
+.hero-buttons {
     display: flex;
     gap: 16px;
 }

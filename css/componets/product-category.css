@@ -10,7 +10,7 @@
 
 .category-card{
     position: relative; /* Adiciona posição relativa para o texto sobre a imagem */
-    width: 317px;
+    width: 295px;
     height: 500px;
     border-radius: 15px;
     display: flex;

@@ -1,0 +1,80 @@
+.card {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+}
+
+.highlight {
+    grid-area: highlight;
+    /* serve para definir a área do grid onde o elemento highlight será posicionado */
+    background-image: url(../../img/products/card_imagem.jpg);
+}
+
+.sneaker-purple {
+    grid-area: sneaker-purple;
+    background-image: url(../../img/products/ROXO-VERDE-GRID.jpg);
+}
+
+.model {
+    grid-area: model;
+    background-image: url(../../img/products/modelo-feminino.jpg);
+}
+
+.sneaker-color {
+    grid-area: sneaker-color;
+    background-image: url(../../img/products/moderno-grid.jpg);
+}
+
+.sneaker-white {
+    grid-area: sneaker-white;
+    background-image: url(../../img/products/preto-branco-grid.jpg);
+}
+
+.sneaker-silver {
+    grid-area: sneaker-silver;
+    background-image: url(../../img/products/futurista-grid.jpg);
+}
+
+.grid-section {
+    display: grid;
+    /* Define o contêiner como um grid */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas:
+        "highlight highlight sneaker-purple sneaker-purple"
+        "highlight highlight model sneaker-color"
+        "sneaker-white sneaker-white model sneaker-silver";
+    /* Define as áreas do grid */
+    gap: 30px;
+    /* Espaçamento entre os itens do grid */
+}
+
+.top1-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #EDEDED;
+}
+
+.card-subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #EDEDED;
+}
+
+.cta-group {
+    display: flex;
+    gap: 10px;
+}

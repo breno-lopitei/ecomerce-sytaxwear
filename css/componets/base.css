@@ -1,5 +1,12 @@
-body {
+body{
     font-family: var(--fonte-principal);
+    color: #333333;
+}
+
+main {
+    padding: 2.5rem 1.5rem 0;
+    max-width: 1320px; /*SEMPRE OBSERVAR O TAMANHO DA TELA EM RELAÇÃO A SUA PROPRIA TELA E SEGUIR O PADRÃO DO FIGMA SE TIVER*/
+    margin: 0 auto;
 }
 
 .btn {
@@ -7,10 +14,10 @@ body {
     width: 161px;
     height: 48px;
     border-radius: 25px;
+    color: #ffffff;
     font-weight: 400;
     padding: 10px 20px;
     transition: background-color 0.3s, border 0.3s;
-    color: #ffffff;
 }
 
 .btn-outline {
