@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/componets/hero.css">
     <link rel="stylesheet" href="./css/componets/product-category.css">
     <link rel="stylesheet" href="./css/componets/products-grid.css">
+    <link rel="stylesheet" href="./css/componets/footer.css">
 </head>
 
 <body>
@@ -115,13 +116,93 @@
         </section>
     </main>
 
-    <footer>
-        <div class="contato">
+    <footer class="footer">
+        <div class="footer-content">
+            <aside class="footer-newsletter">
+                <h3>Inscreva-se em nosso e-mail</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="seu@email.com" required>
+                </form>
 
-            <!-- Informações de contato aqui -->
+                <h4>Redes sociais</h4>
+                <ul class="social-links">
+                    <li>
+                        <a href="#" title="Instagram" class="social-icon">
+                            <img src="./img/icons/instagram.svg" alt="Instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="WhatsApp" class="social-icon">
+                            <img src="./img/icons/whatsapp.svg" alt="WhatsApp">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="TikTok" class="social-icon">
+                            <img src="./img/icons/tiktok.svg" alt="TikTok">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Facebook" class="social-icon">
+                            <img src="./img/icons/facebook.svg" alt="Facebook">
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+
+            <nav class="footer-categories" aria-label="Categorias de Produtos">
+                <h3>Categorias</h3>
+                <ul>
+                    <li>
+                        <strong>Masculino</strong>
+                        <ul class="subcategories">
+                            <li><a href="#">Casual</a></li>
+                            <li><a href="#">Esporte</a></li>
+                            <li><a href="#">Moderno</a></li>
+                            <li><a href="#">Futurista</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Feminino</strong>
+                        <ul class="subcategories">
+                            <li><a href="#">Casual</a></li>
+                            <li><a href="#">Esporte</a></li>
+                            <li><a href="#">Moderno</a></li>
+                            <li><a href="#">Futurista</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav class="footer-outlet" aria-label="Outlet">
+                <h3>Outlet</h3>
+                <ul>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Feminino</a></li>
+                </ul>
+            </nav>
+
+            <nav class="footer-info" aria-label="Informações da Loja">
+                <ul>
+                    <li>
+                        <h3>Nossas lojas</h3>
+                        <ul class="info-list">
+                            <li><a href="#">Loja física</a></li>
+                            <li><a href="#">Loja online</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Sobre</h3>
+                        <ul class="info-list">
+                            <li><a href="#">Quem somos</a></li>
+                            <li><a href="#">Missão</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <div class="links">
-            <!-- Links úteis aqui -->
+
+        <div class="footer-bottom">
+            <p>Copyright. All Rights Reserved</p>
         </div>
     </footer>
 </body>

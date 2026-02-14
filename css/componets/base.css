@@ -4,7 +4,7 @@ body{
 }
 
 main {
-    padding: 2.5rem 1.5rem 0;
+    padding: 2.5rem 1.5rem;
     max-width: 1320px; /*SEMPRE OBSERVAR O TAMANHO DA TELA EM RELAÇÃO A SUA PROPRIA TELA E SEGUIR O PADRÃO DO FIGMA SE TIVER*/
     margin: 0 auto;
 }
