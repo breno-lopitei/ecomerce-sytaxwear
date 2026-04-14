@@ -64,9 +64,9 @@
 }
 
 .menu-icon {
-	width: 30px;
-	height: 30px;
-	display: block;
+	width: 45px;
+	height: 45px;
+	display: none;
 	/* fará com que o ícone do menu seja exibido como um bloco */
 	cursor: pointer;
 	/* servirá para indicar que o elemento é clicável */
